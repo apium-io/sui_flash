@@ -18,7 +18,6 @@ public struct UserProfile has key {
 }
 
 public struct UserData has store {
-    // id: ID,
     total_collections_created: u64,
     total_collections_owned: u64,
     collections: Table<ID, String>,
@@ -84,8 +83,6 @@ entry fun create_new_collection(
     assert!(string::length(&collection_name) > 0, E_INVALID_COLLECTION_NAME);
 
     let flash_card_collection = create_flash_card_collection(collection_name, ctx);
-
-    // let user_id = user_profile.id.to_inner();
 
     let user_data = mut_get_user_data(user_profile);
 
