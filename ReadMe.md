@@ -1,11 +1,11 @@
 **sui\_flash::profile — On-Chain Flash-Card Manager**
-*Hackathon Submission | Built on Sui*
+*Sui Overflow Hackathon Submission | Built on Sui*
 
 ---
 
 ## 🚀 Project Overview
 
-**SuiFlash** is an on-chain flash-card and study-buddy platform built for rapid prototyping in a hackathon setting. Leveraging Sui’s Move smart-contract framework, SuiFlash lets users:
+**SuiFlash** is a lightweight, on-chain flashcard application built on the Sui blockchain. It empowers users to create, own, and study digital flashcard collections directly from their Sui wallet. No centralized servers, no passwords, and no middlemen, SuiFlash lets users:
 
 * **Self-register** on-chain and manage their own profile object
 * **Create named collections** of flash cards (decks)
