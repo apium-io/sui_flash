@@ -1,0 +1,6 @@
+[submodule "sui-flash-genius"]
+	path = sui-flash-genius
+	url = git@Nethsara:Nethsara/sui-flash-genius.git
+[submodule "sui_flash"]
+	path = sui_flash
+	url = git@Nethsara:apium-io/sui_flash.git
